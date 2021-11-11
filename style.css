@@ -14,8 +14,8 @@ span, del {
 }
 
 .container{
-    width: 100%;
-    margin: 0 50px auto;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .row{
