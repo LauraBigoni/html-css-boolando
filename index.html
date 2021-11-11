@@ -4,28 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Laura Bigoni">
+    <meta name="description" content="Boolean shopping site">
     <link rel="stylesheet" href="style.css">
     <title>Boolando</title>
 </head>
 <body>
-    <!-- Products -->
-    <main>
-        <div class="container">
-            <article class="product"> <img src="img/1.webp" alt="Relaxed fit tee unisex">
-            </article>
-            <article class="product"> <img src="img/2.webp" alt="Relaxed fit tee unisex">
-            </article>
-            <article class="product"> <img src="img/3.webp" alt="Relaxed fit tee unisex">
-            </article>
+    <!--Products -->
+    <div class="container">
+    <!--Prima riga-->
+        <div class="row">
+            <div class="card">
+                <article class="product" id="relaxed-tee">
+                    <span class="sales text-white">-50%</span>
+                    <span class="sustainability text-white" id="sustain-moved">Sostenibilità</span>
+                    <span class="favourite">&hearts;</span>
+                </article>
+                <div class="info">
+                    <span>Levi's</span><br>
+                    <span class="text-big">RELAXED FIT TEE UNISEX</span><br>
+                    <span class="text-red">19,99 &euro; </span><del>29,99 &euro;</del>
+                </div>
+            </div>
+            <div class="card">
+                <article class="product" id="roses-tee">
+                    <span class="sales text-white">-30%</span>
+                    <span class="favourite">&hearts;</span>
+                </article>
+                <div class="info">
+                    <span>Guess</span><br>
+                    <span class="text-big">ROSES TEE</span><br>
+                    <span class="text-red">20,99 &euro; </span><del>29,99 &euro;</del>
+                </div>
+            </div>
+            <div class="card">
+                <article class="product" id="pastello">
+                    <span class="sales text-white">-30%</span>
+                    <span class="favourite">&hearts;</span>
+                </article>
+                <div class="info">
+                    <span>Come Zucchero Filato</span><br>
+                    <span class="text-big">VOGLIA DI COLORE PASTELLO</span><br>
+                    <span class="text-red">129,99 &euro;</span>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <article class="product"> <img src="img/4.webp" alt="Relaxed fit tee unisex">
-            </article>
-            <article class="product"> <img src="img/5.webp" alt="Relaxed fit tee unisex">
-            </article>
-            <article class="product"> <img src="img/6.webp" alt="Relaxed fit tee unisex">
-            </article>
-        </div>
-    </main>
+    </div>
 </body>
-</html>
+</html> 

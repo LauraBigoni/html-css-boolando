@@ -1,38 +1,129 @@
 /* Generics */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* Utilities */
-.container {
-    width: 50%;
-    margin: 100px auto;
+span, del {
+    font-size: 12px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 20px 100px;
+}
+
+.text-white{
+    font-size: 12px;
+    color: white;
+    padding: 2px;
+}
+
+.text-red{
+    font-size: 12px;
+    color:red;
+    font-weight: 600;
+}
+
+.text-big{
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* Products */
-article {
-    padding: 10px;
-    display: inline-block;
-    width: calc(100 / 3 4px);
+.product{
+    width: 320px;
+    height: 450px;
+    background-position: center;
     background-size: cover;
-
-}
-
-.product {
+    background-repeat: no-repeat;
     display: inline-block;
+    position: relative;
 }
 
-img {
-    width: 792px;
-    height: 1114px;
+#relaxed-tee{
+    background-image:url("img/1.webp");
 }
 
-/*  */
+#roses-tee{
+    background-image: url("img/2.webp");
+}
 
+#pastello{
+    background-image: url("img/3.webp");
+}
+
+.sales{
+    position:absolute;
+    background-color:#EB0037;
+    bottom: 20px;
+}
+
+.sustainability{
+    position: absolute;
+    background-color: #00875A;
+    }
+
+#sustain-moved{
+    bottom: 20px;
+    left: 40px;
+}
+
+.favourite{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 1.2em;
+}
+
+.card{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+}
+
+ .info{
+     display: block;
+     width: 100%;
+     margin: 0;
+     position:absolute;
+ }
+
+ /* Hover */
+ #relaxed-tee:hover{
+     background-image: url("img/1b.webp");
+}
+
+ #roses-tee:hover{
+     background-image: url("img/2b.webp");
+}
+
+ #pastello:hover{
+     background-image: url("img/3b.webp");
+}
+
+ #tee-unisex:hover{
+     background-image: url("img/4b.webp");
+}
+
+ #stripe-bodice:hover{
+     background-image: url("img/5b.webp");
+}
+
+ #sweater-black:hover{
+     background-image: url("img/6b.webp");
+}
+
+.favourite:hover{
+    color: red;
