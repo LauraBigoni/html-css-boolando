@@ -9,14 +9,30 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Utilities */
 .container {
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 /* Products */
+article {
+    padding: 10px;
+    display: inline-block;
+    width: calc(100 / 3 4px);
+    background-size: cover;
 
+}
+
+.product {
+    display: inline-block;
+}
+
+img {
+    width: 792px;
+    height: 1114px;
+}
 
 /*  */
 
