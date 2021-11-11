@@ -14,12 +14,13 @@ span, del {
 }
 
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 50px auto;
 }
 
 .row{
-    margin: 20px 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .text-white{
@@ -42,7 +43,7 @@ span, del {
 /* Products */
 .product{
     width: 320px;
-    height: 450px;
+    height: 420px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,6 +63,18 @@ span, del {
     background-image: url("img/3.webp");
 }
 
+#tee-unisex{
+    background-image: url("img/4.webp");
+}
+
+#stripe-bodice{
+    background-image: url("img/5.webp");
+}
+
+#sweater-black{
+    background-image: url("img/6.webp");
+}
+
 .sales{
     position:absolute;
     background-color:#EB0037;
@@ -78,9 +91,13 @@ span, del {
     left: 40px;
 }
 
+#sustain{
+    bottom: 20px;
+}
+
 .favourite{
     background-color: white;
-    padding: 10px;
+    padding: 5px 10px 5px;
     position: absolute;
     top: 10px;
     right: 0;
@@ -88,7 +105,7 @@ span, del {
 }
 
 .card{
-    width: 33%;
+    width: 30%;
     display: inline-block;
     position: relative;
 }
